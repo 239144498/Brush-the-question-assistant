@@ -113,6 +113,7 @@ class mywindow2(QtWidgets.QMainWindow, Ui_MainWindow):
                         self.up.setEnabled(False)
                         return
                 self.conts1 += 1    # 答题数量计总
+                self.statars = 'C'  # 当前单选
                 self.dispy()
                 self.contentb.setFocus()
                 self.contentb.setChecked(True)
